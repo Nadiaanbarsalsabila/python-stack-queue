@@ -16,7 +16,7 @@ def tampilkan_barang_teratas(stack):
         print("stack kosong, tidak ada barang yang dapat ditampilkan.")
     else:
         barang_teratas = stack[-1]
-        print(f"{barang teratas didalam stack adalah {barang_teratas}.")
+        print(f"barang teratas didalam stack adalah {barang_teratas}.")
 ]
 while True:
     print("\nGudang saat ini:",stack)
@@ -30,7 +30,7 @@ while True:
     if pilihan == "1":
         barang_baru=input("masukkan nama barang yang akan ditambahkan: ")
         tambah_barang(stack, barang_baru)
-    elif: pilihan == "2":
+    elif pilihan == "2":
         hapus_barang_terakhir(stack)
     elif pilihan == "3":
         tampilkan_barang_teratas(stack)
